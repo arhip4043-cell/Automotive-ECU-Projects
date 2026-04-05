@@ -13,7 +13,7 @@ Occorre aprire il terminale ed eseguire la connessione al **ELM327**:
 nc 192.168.0.10 35000
 ```
 
-Una volta connesso, lo scanner può eseguire delle funzioni base in relazione alla capacita hardware dello scanner, ma in linea di principio tutti gli scanner possono eseguire le seguenti operazioni tramite il **CAN BUS** dell'auto:
+Una volta connesso, lo scanner può eseguire delle funzioni base in relazione alla capacità hardware dello scanner, ma in linea di principio tutti gli scanner possono eseguire le seguenti operazioni tramite il **CAN BUS** dell'auto:
 
 - 🔄 `ATZ` – Reset dello scanner
 - 📨 `ATH1` – Attiva gli Header per vedere chi invia il dato
