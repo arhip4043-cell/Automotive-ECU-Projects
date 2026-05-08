@@ -32,7 +32,7 @@ Di seguito la lista degli studi, guide operative e script pubblicati derivanti d
 * **Focus Forense:** L'analisi si concentra sulla lettura dei *Diagnostic Trouble Codes (DTC)* e, in particolare, sull'estrazione dei **Freeze Frames (Mode 02)**. Il Freeze Frame viene trattato come un "Flight Data Recorder" (Scatola Nera) per acquisire la telemetria esatta (es. RPM, Temperatura, Velocità) al momento di un guasto o di un crash, fondamentale per la ricostruzione degli incidenti (Incident Response).
 * **Automazione:** Include uno script Python (tramite libreria `obd`) per automatizzare il querying seriale e l'acquisizione massiva delle prove forensi dalla centralina.
 * **Status:** `[Pubblicato]`
-* **Link:** 👉 *[Leggi la Guida Completa qui](https://github.com/arhip4043-cell/Automotive-ECU-Projects/edit/main/Diagnostica%OBD-II%e%Forensics%Base.md#:~:text=Guida,-Pratica:%20Diagnostica%20OBD)*
+* **Link:** 👉 *[Leggi la Guida Completa qui](https://github.com/arhip4043-cell/Automotive-ECU-Projects/blob/main/Guida%20Pratica%3A%20Diagnostica%20OBD-II%20e%20Forensics%20Base.md#:~:text=Guida-,Pratica,-:%20Diagnostica%20OBD%2DII)*
 
 ### 📄 [Paper 02] CAN Bus Spoofing e Packet Injection
 * **Descrizione:** Analisi del traffico CAN tramite sniffer (`can-utils`). Il paper in via di sviluppo dimostra la mancanza di autenticazione intrinseca nel protocollo CAN standard e propone metodologie di rilevamento di anomalie (Anomaly Detection) basate sull'analisi della frequenza dei pacchetti.
